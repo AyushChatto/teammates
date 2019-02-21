@@ -35,4 +35,8 @@ describe('StudentPageComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it( 'should snap', () => {
+    expect(fixture).toMatchSnapshot();
+  })
 });

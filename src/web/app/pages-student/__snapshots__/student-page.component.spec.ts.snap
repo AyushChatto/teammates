@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentPageComponent should snap 1`] = `
+<tm-student-page
+  authService={[Function AuthService]}
+  backendUrl={[Function String]}
+  institute=""
+  isAdmin="false"
+  isInstructor="false"
+  isStudent="false"
+  logoutUrl=""
+  navItems={[Function Array]}
+  route={[Function ActivatedRoute]}
+  user=""
+>
+  <tm-page
+    ng-reflect-institute=""
+    ng-reflect-is-admin="false"
+    ng-reflect-is-instructor="false"
+    ng-reflect-is-student="false"
+    ng-reflect-is-valid-user="false"
+    ng-reflect-logout-url=""
+    ng-reflect-nav-items="[object Object],[object Object"
+    ng-reflect-user=""
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+    >
+      <a
+        href="/web"
+        ng-reflect-router-link="/web"
+        routerlink="/web"
+      >
+        <img
+          alt="TEAMMATES [Logo]"
+          src="assets/images/teammateslogo.png"
+        />
+      </a>
+      <button
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler d-lg-none"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        ng-reflect-collapsed="true"
+      >
+        
+        
+        <ul
+          class="nav navbar-nav mr-auto"
+        />
+        
+        <ul
+          class="nav navbar-nav pull-right"
+        >
+          
+          <li
+            class="nav-item dropdown"
+            ng-reflect-placement="bottom-right"
+            ngbdropdown=""
+            placement="bottom-right"
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle dropdown-toggle"
+              data-toggle="dropdown"
+              ngbdropdowntoggle=""
+            >
+              Login
+            </a>
+            <div
+              class="dropdown-menu"
+              ngbdropdownmenu=""
+              x-placement="bottom-right"
+            >
+              <a
+                class="dropdown-item"
+                href=""
+              >
+                Student Login
+              </a>
+              <a
+                class="dropdown-item"
+                href=""
+              >
+                Instructor Login
+              </a>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    <div
+      class="container main-content"
+      id="main-content"
+    >
+      
+      <div>
+        <div
+          class="alert alert-danger"
+          role="alert"
+        >
+          <i
+            class="fas fa-exclamation-circle"
+          />
+           You are currently using WebKit 537.36. This web browser is not officially supported by TEAMMATES. In case this web browser does not display the webpage correctly you may wish to view it in the following supported browsers: 
+          <ol>
+            <li>
+              Microsoft Internet Explorer 10+
+            </li>
+            <li>
+              Chrome 45+
+            </li>
+            <li>
+              Firefox 40+
+            </li>
+            <li>
+              Safari 7+
+            </li>
+          </ol>
+        </div>
+      </div>
+      
+      
+      
+      <div>
+        
+        
+        <div>
+          <div
+            class="row"
+          >
+            <div
+              class="alert alert-danger col-sm-8 offset-sm-2"
+            >
+              <div
+                class="align-left"
+              >
+                <h5
+                  style="text-align: center;"
+                >
+                  <i
+                    class="fas fa-exclamation-circle"
+                  />
+                   Ooops! Your Google account is not known to TEAMMATES
+                </h5>
+                <p
+                  style="text-align: center"
+                >
+                   To access a course on TEAMMATES, you need to wait until an instructor adds you to that course. As a confirmation, TEAMMATES will send you instructions on how to access that particular course. 
+                </p>
+                <hr />
+                <br />
+                 If you 'joined' the course in TEAMMATES using a Google account before, but cannot login anymore, these are the possible reasons: 
+                <ol>
+                  <li>
+                     You used a different Google account to access TEAMMATES in the past. In that case, you need to use the same Google account to access TEAMMATES again. Logout and re-login using the other Google account. If you don't remember which Google account you used previously, email us from the same email account to which you receive TEAMMATES emails. 
+                  </li>
+                  <li>
+                     You changed the primary email from a non-Gmail address to a Gmail address recently. In that case, 
+                    <a
+                      href="/web/front/contact"
+                      ng-reflect-router-link="/web/front/contact"
+                      routerlink="/web/front/contact"
+                    >
+                       email us 
+                    </a>
+                     so that we can reconfigure your account to use the new Gmail address. 
+                  </li>
+                  <li>
+                     You joined this course just a few seconds ago and your data may be still in the process of propagating through our servers. In that case, please try this same page in a few minutes. 
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <tm-status-message
+        ng-reflect-messages=""
+      >
+        
+      </tm-status-message>
+      
+    </div>
+    <div>
+      <footer>
+        <div
+          class="container footer text-nowrap"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-sm-4 col-md-4 text-left"
+            >
+              <i
+                class="fas fa-bolt"
+              />
+              <a
+                href="/web/front/home"
+                ng-reflect-router-link="/web/front/home"
+                routerlink="/web/front/home"
+              >
+                 TEAMMATES
+              </a>
+               V7.0.0 
+            </div>
+            <div
+              class="col-sm-4 col-md-4 text-center"
+            >
+              
+            </div>
+            <div
+              class="col-sm-4 col-md-4 text-right"
+            >
+              <i
+                class="far fa-comments"
+              />
+               Send 
+              <a
+                href="/web/front/contact"
+                ng-reflect-router-link="/web/front/contact"
+                ng-reflect-target="_blank"
+                routerlink="/web/front/contact"
+                target="_blank"
+              >
+                Feedback
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </tm-page>
+</tm-student-page>
+`;
